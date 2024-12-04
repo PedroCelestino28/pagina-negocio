@@ -107,20 +107,21 @@
             </div>
         </div>
     <div id="back-to-top" onclick="scrollToTop()">Voltar ao topo</div>
-    <script>
-        window.onscroll = function() {
-            var backToTopButton = document.getElementById("back-to-top");
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                backToTopButton.style.display = "block";
-            } else {
-                backToTopButton.style.display = "none";
-            }
-        };
-
-        function scrollToTop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
+<script>
+    window.onscroll = function() {
+        var backToTopButton = document.getElementById("back-to-top");
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
         }
+    };
+
+    function scrollToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
     document.addEventListener('DOMContentLoaded', function() {
         const navLinks = document.querySelectorAll('nav ul li a');
         navLinks.forEach(link => {
@@ -132,6 +133,6 @@
             });
         });
     });
-    </script>
+</script>
 </body>
 </html>
