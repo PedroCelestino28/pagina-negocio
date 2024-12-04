@@ -17,3 +17,5 @@ ul li { margin-bottom: 10px; }
 .services, .courses, .contact { display: flex; justify-content: space-between; }
 .services div, .courses div, .contact div { flex: 1; margin: 0 10px; }
 footer { background-color: #333; color: #fff; text-align: center; padding: 10px 0; }
+#back-to-top { position: fixed; bottom: 20px; right: 20px; display: none; background-color: #333; color: #fff; padding: 10px; border-radius: 5px; cursor: pointer; }
+#back-to-top:hover { background-color: #555; }
