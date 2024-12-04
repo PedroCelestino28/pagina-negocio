@@ -18,8 +18,8 @@ ul li { margin-bottom: 10px; }
 .welcome { text-align: center; padding: 50px 0; }
 .welcome h1 { font-size: 2.5em; }
 .welcome p { font-size: 1.2em; color: #666; }
-.services, .courses, .contact { display: flex; justify-content: space-between; }
-.services div, .courses div, .contact div { flex: 1; margin: 0 10px; }
+.services, .courses, .contact { display: flex; justify-content: space-between; width: 300px;}
+.services div, .courses div, .contact div { flex: 1; margin: 0 10px; width: 300px;}
 footer { background-color: #333; color: #fff; text-align: center; padding: 10px 0;
 .social-links {margin-top: 10px;}
 .social-links a {
