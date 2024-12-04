@@ -21,6 +21,7 @@ ul li { margin-bottom: 10px; }
 .services, .courses, .contact { display: flex; justify-content: space-between;}
 .services div, .courses div, .contact div { flex: 1; margin: 0 10px;}
 #services img {width: 300px; height: 300px}
+.section_services {width: 300px; height: 300px}
 footer { background-color: #333; color: #fff; text-align: center; padding: 10px 0;
 .social-links {margin-top: 10px;}
 .social-links a {
