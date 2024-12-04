@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template, send_from_directory
+from datetime import datetime
 
 app = Flask(__name__)
 
@@ -14,11 +15,16 @@ def negocio():
 def submit():
     name = request.form['name']
     email = request.form['email']
+    city = request.form['city']
+    state = request.form['state']
+    contact = request.form['contact']
+    course = request.form['course']
     message = request.form['message']
+    date_submitted = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
     # Salvar os dados em um arquivo
     with open('submissions.txt', 'a') as file:
-        file.write(f'Nome: {name}\nEmail: {email}\nMensagem: {message}\n\n')
+        file.write(f'Data: {date_submitted}\nNome: {name}\nEmail: {email}\nCidade: {city}\nEstado: {state}\nContato: {contact}\nCurso de Interesse: {course}\nMensagem: {message}\n\n')
 
     return render_template('thank_you.html')
 
