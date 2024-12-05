@@ -26,10 +26,6 @@ ul li { margin-bottom: 10px; }
     max-width: 1200px; /* Ajuste o valor conforme necessário */
     margin: 0 auto;
 }
-.carousel img {
-    width: 100%;
-    height: auto;
-}
 footer { background-color: #333; color: #fff; text-align: center; padding: 10px 0; }
 .social-links { margin-top: 10px; }
 .social-links a { color: #fff; margin: 0 10px; text-decoration: none; border: 1px solid transparent; padding: 5px; border-radius: 5px; transition: all 0.3s ease; }
