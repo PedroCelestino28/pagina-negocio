@@ -18,7 +18,10 @@ ul li { margin-bottom: 10px; }
 .services, .courses, .contact { display: flex; justify-content: space-between; }
 .services div, .courses div, .contact div { flex: 1; margin: 0 10px; }
 .section_services img { width: 300px; height: 300px; }
-.section_welcome img { width: 450px; height: 450px; display: flex; justify-content: center; align-items: center; text-align: center}
+.section_welcome img { 
+  width: 450px; height: 450px;
+  display: flex; justify-content: center; align-items: center; text-align: center; flex-wrap: wrap; 
+  gap: 20px; /* Espaçamento entre as imagens */}
 footer { background-color: #333; color: #fff; text-align: center; padding: 10px 0; }
 .social-links { margin-top: 10px; }
 .social-links a { color: #fff; margin: 0 10px; text-decoration: none; border: 1px solid transparent; padding: 5px; border-radius: 5px; transition: all 0.3s ease; }
