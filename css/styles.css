@@ -129,10 +129,6 @@ ul li {
   text-align: center; /* Centraliza o texto e as imagens */
 }
 
-#team {
-  margin-top: 20px; /* Adiciona margem superior para espaçamento */
-}
-
 #about {
   max-width: 1000px; /* Define uma largura máxima para a seção */
   width: 100%; /* Garante que a seção ocupe 100% da largura disponível */
